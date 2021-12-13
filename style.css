@@ -1,0 +1,31 @@
+* {
+  font-family: roboto;
+}
+
+
+h1 {
+  font-size: 24px;
+  color: #F9FAF8
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style-type: none;
+  font-size: 18px;
+  color: #E5E7EB;
+  display: flex;
+  gap: 24px;
+}
+
+.nav-menu:hover {
+  color: #E5E7EB;
+}
+
+.hero {
+  background-color: #1f2937;
+}
