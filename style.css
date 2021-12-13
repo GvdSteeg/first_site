@@ -22,8 +22,13 @@ header {
   gap: 24px;
 }
 
-.nav-menu:hover {
+.nav-menu a {
+  text-decoration: none;
   color: #E5E7EB;
+}
+
+.nav-menu a:hover {
+  color: #abadb1;
 }
 
 .hero {
