@@ -5,13 +5,13 @@
 }
 
 body {
-  background-color: #F9FAF8;
+  background-color: #1F2937;
 }
 
 h1 {
   font-size: 48px;
   color: #F9FAF8;
-  font-weight: extra-bold;
+  font-weight: bolder;
 }
 h2 {
   font-size: 36px;
@@ -30,12 +30,13 @@ h4 {
 h5 {
   font-size: 36px;
   color: #1F2937;
-  font-style: italic;
+  font-weight: 700;
 }
 
 header {
   background-color: #1f2937;
-  padding: 15px;
+  padding: 10px;
+  overflow: ;
 }
 .header-container {
   display: flex;
@@ -68,7 +69,7 @@ header {
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
-  padding: 80px 0px;
+  padding: 80px 10px;
 }
 .hero-container-left {
   flex: 1 1 1;
@@ -105,4 +106,33 @@ button {
 button > a {
   text-decoration: none;
   color: #F9FAF8;
+}
+
+.info-body {
+  background-color:#F9FAF8;
+  padding: 10px;
+}
+.info-header {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+}
+.info-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 0px 0px 70px;
+}
+.info-content img {
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+  max-height: 120px;
+}
+.info-content-1, .info-content-2, .info-content-3, .info-content-4 {
+  max-width: 120px;
+}
+.info-content h4 {
+  font-size: 13px;
+  text-align: center;
 }
