@@ -13,64 +13,96 @@ h1 {
   color: #F9FAF8;
   font-weight: extra-bold;
 }
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+}
 h3 {
   font-size: 24px;
   color: #F9FAF8;
   font-weight: bold;
 }
-
 h4 {
   font-size: 18px;
-  color: #E5E7EB;
+  color: #ABADB1;
   font-weight: normal;
 }
-
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+h5 {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
 }
 
 header {
   background-color: #1f2937;
-  border-width: 10px;
-  border: 2px solid red;
+  padding: 15px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0px;
+  max-width: 920px;
+}
+.header-container > h3 {
+  padding-left: 15px;
 }
 
 .nav-menu {
   list-style-type: none;
   display: flex;
+  justify-self: flex-end;
   gap: 24px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
-
 .nav-menu a {
   text-decoration: none;
-  color: #E5E7EB;
 }
-
-.nav-menu a:hover {
-  color: #abadb1;
+.nav-menu h4:hover { 
+  color: #F9FAF8;
 }
 
 .hero-container-main {
   background-color: #1f2937;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
+  padding: 80px 0px;
 }
-
 .hero-container-left {
-  display: flex;
-  border: 2px solid red;
-  /* justify-content: flex-start; */
+  flex: 1 1 1;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 460px;
+  /* border: 2px solid red; */
+  margin: 10px;
+  padding: 10px;
 }
-
+.hero-container-left > h4 {
+  margin: 5px 0px;
+}
 .hero-container-right {
-  display: flex;
-  border: 2px solid red;
-  /* justify-content: flex-end; */
+  flex-shrink: 0;
+  /* border: 2px solid red; */
+  margin: 5px;
 }
  .hero-container-right > img {
-  max-width: 500px;
+  max-width: 420px;
+}
+
+button {
+  padding: 10px 35px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  border-color: #3882F6;
+  border-style: none;
+  font-size: 16px;
+  color: #F9FAF8;
+  font-weight: bold;
+  text-decoration: none;
+}
+button > a {
+  text-decoration: none;
+  color: #F9FAF8;
 }
