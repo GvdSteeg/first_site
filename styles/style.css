@@ -16,6 +16,8 @@ h1 {
 h2 {
   font-size: 36px;
   color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
 }
 h3 {
   font-size: 24px;
@@ -31,6 +33,10 @@ h5 {
   font-size: 36px;
   color: #1F2937;
   font-weight: 700;
+}
+p {
+  font-size: 13px;
+  color: #E5E7EB;
 }
 
 header {
@@ -135,4 +141,61 @@ button > a {
 .info-content h4 {
   font-size: 13px;
   text-align: center;
+}
+
+.quote-banner {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 80px 0px;
+}
+.quote-banner-text {
+  max-width: 780px;
+  justify-self: center;
+}
+.quote-signature {
+  max-width: 780px;
+  padding: 20px 30px;
+  text-align: end;
+}
+
+.call-to-action-outer {
+  display: flex;
+  background-color: #F9FAF8;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 70px 0px;
+}
+.call-to-action-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  background-color: #3882F6;
+  max-width: 1200px;
+  border-radius: 7px;
+  padding: 40px 100px;
+}
+#bottom-button {
+  padding: 10px 35px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  border: 1px solid #F9FAF8;
+  font-size: 16px;
+  color: #F9FAF8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  height: 70px;
+}
+.footer {
+  display: flex;
+  align-items: center;
 }
